@@ -1,0 +1,47 @@
+﻿# ===== Laravel =====
+/node_modules
+/vendor
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/storage/logs/*.log
+
+# ===== Angular (separate folder) =====
+/greenjack-angular
+
+# ===== Large files =====
+greenjackshop.zip
+*.zip
+*.tar.gz
+
+# ===== Environment =====
+.env
+.env.backup
+.env.production
+.env.local
+
+# ===== PHP =====
+.phpactor.json
+.phpunit.result.cache
+/.phpunit.cache
+/auth.json
+Homestead.json
+Homestead.yaml
+
+# ===== IDE / OS =====
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ===== Backups =====
+.git.old/
+*.bak
+*.old
